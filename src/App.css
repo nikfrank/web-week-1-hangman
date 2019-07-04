@@ -1,5 +1,36 @@
 .word {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.winner {
+  position: fixed;
+  top: 10vh;
+  left: 30vw;
+  width: 40vw;
+  height: 30vh;
+
+  background-color: green;
+  z-index: 5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loser {
+  position: fixed;
+  top: 10vh;
+  left: 30vw;
+  width: 40vw;
+  height: 30vh;
+
+  background-color: red;
+  z-index: 5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .letter {
